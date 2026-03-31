@@ -56,7 +56,7 @@ This tool is useful when:
 1. Drag emails directly from Outlook into the web UI  
 2. System extracts PDF attachments  
 3. Each PDF is parsed using a supplier-specific parser  
-4. A **review PDF is generated (with overlays)**  
+4. A review PDF is generated (with overlays)  
 5. Operator verifies extracted data  
 6. Data is used in Excel  
 
@@ -107,8 +107,10 @@ Every processed PDF is included in a **review document**:
 This is critical because:
 
 > PDF parsing is not deterministic — verification is required.
+
 ---
-<img width="963" height="597" alt="image" src="https://github.com/user-attachments/assets/570ae830-617e-47fe-9a8a-eaed1d758cf0" />
+<img width="961" height="451" alt="image" src="https://github.com/user-attachments/assets/c0528d4c-7f42-4b8e-b444-0ac35f8158e1" />
+
 The picture shows an example of the review step. The data extracted has yellow background, and the red box includes the source.
 "Excelrow" corresponds to the row in the output excel file.
 
