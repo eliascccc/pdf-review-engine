@@ -1,6 +1,8 @@
 # pdf-review-engine
+
 "you can batch messy real-world PDFs and still trust the output because of review"
 
+---
 > ⚠️ This is NOT a PDF parser.
 >
 > This project is a **framework for working with PDF parsing in an operations perspective**.
@@ -74,7 +76,7 @@ You implement:
 - field extraction
 - data interpretation
 
-### 2. Workflow (this project)
+### 2. Engine (this project)
 
 This project handles:
 - file intake (PDF / .msg / .eml)
