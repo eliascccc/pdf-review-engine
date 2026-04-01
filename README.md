@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/d0085fcf-6ed8-49a4-9688-df7066e84a11
 3. Each PDF is parsed using a supplier-specific parser  
 4. A review PDF is generated (with overlays)  
 5. Operator verifies extracted data  
-6. Data is used in Excel  
+6. Data is moved to Excel  
 
 
 It is designed to run as a **local tool inside a company**, not as a SaaS or generic converter.
@@ -47,12 +47,10 @@ The included parsers (e.g. SodaAntarctica / BigCustomer) are **examples only**.
 
 ## Intended use case
 
-This tool is useful when:
-
-- you receive structured documents via email (e.g. order confirmations, invoices)
-- you do NOT have EDI
-- you get documents in batches ("in bursts")
-- you want to quickly move data into Excel for further processing
+- You receive structured PDFs via email (orders, invoices, etc.)
+- You do not have EDI
+- Documents arrive in batches
+- You need to move data into Excel — reliably
 
 ---
 
