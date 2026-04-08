@@ -75,6 +75,7 @@ This project handles:
 - job queue + worker system  
 
 ---
+## Example review document
 <img width="961" height="451" alt="image" src="https://github.com/user-attachments/assets/c0528d4c-7f42-4b8e-b444-0ac35f8158e1" />
 
 Example of the review step:
@@ -87,11 +88,9 @@ Example of the review step:
 
 ## The (very important) review step
 
-This system is built around one assumption:
+This system is built around one assumption: parsing will fail.
 
-> parsing will fail.
-
-Every processed PDF is turned into a **review document**:
+Therefore, every processed PDF is turned into a **review document**:
 
 - extracted values are overlaid on the original PDF
 - errors are visible immediately
@@ -147,21 +146,6 @@ Tested with:
 - Chrome, Edge, Firefox  
 - Windows and Linux  
 - Outlook drag & drop (.msg files)
-
----
-
-## Positioning
-
-Most PDF tools focus on extracting data.
-
-This project is built around reviewing that data.
-
-Every result is turned into a visual review document,
-where extracted values are overlaid on the original PDF
-and explicitly linked to the output.
-
-Instead of trusting parsing,
-you verify it.
 
 ---
 
