@@ -2,7 +2,9 @@
 
 Batch messy real-world PDFs — and still trust the output.
 
-This project is a review-first engine for PDF parsing. It is not a PDF parser, it **makes PDF parsing usable** in real operations.
+This project is a review-first engine for PDF parsing. It is not a PDF parser, instead, it **makes PDF parsing usable** in real operations.
+
+It is designed to run as a local tool inside a company, not as a SaaS or generic converter, and should be deployed on an internal server and accessed via a web browser.
 
 ---
 > ⚠️ This is NOT a PDF parser.
@@ -18,8 +20,6 @@ https://github.com/user-attachments/assets/d0085fcf-6ed8-49a4-9688-df7066e84a11
 4. A review PDF is generated (with overlays)  
 5. Operator verifies extracted data  
 6. Data is moved to Excel  
-
-It is designed to run as a **local tool inside a company**, not as a SaaS or generic converter.
 
 ---
 
@@ -82,9 +82,6 @@ This enables:
 - fast human verification
 - safe batch processing across suppliers
 
-Instead of making parsing perfect,
-this project makes parsing usable.
-
 ---
 
 
@@ -136,6 +133,6 @@ Tested with:
 - Parsing is fully custom per supplier
 - No guarantee of correctness without review
 - Not designed for cloud or scaling (local use)
-- Not multi-user safe (yet)
+- Not multi-user safe yet (in progress, intended for shared use)
 
 ---
